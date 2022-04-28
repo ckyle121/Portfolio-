@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.css'
 import Nav from './components/Nav';
 import About from './components/About';
-import Project from './components/Projects';
-
+import Contact from './components/Contact';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -19,6 +19,7 @@ function App() {
           )}
       </main>
     </div>
+
   );
 }
 

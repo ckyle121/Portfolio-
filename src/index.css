@@ -1,6 +1,68 @@
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* for every element on the style sheet */
+
+:root{
+  --yellow: #FFE042;
+  --dark-blue: #021F59;
+  --blue: #035AA6;
+  --light-blue: #A0CCF2;
 }
 
+/* apply styles to body elements*/
+body{
+  color: var(--dark-blue);
+  font-family: "Raleway", sans-serif;
+  background-color: var(--light-blue);
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  color: var(--blue);
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+h3 {
+  color: var(--dark-blue);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+
+h3:hover {
+  color: var(--yellow);
+}
+
+img{
+  width: 100%;
+  border: 5px solid var(--yellow);
+  opacity: 0.75;
+  height: 80%;
+  
+}
+
+.bio-img {
+  opacity: 1;
+  height: 100%;
+}
+
+.bio-text {
+  color: var(--darkblue);
+  text-align: center;
+  font-size: larger;
+  margin-top: 1rem;
+}
+
+img:hover{
+  opacity: 1;
+}
+
+.navbar{
+  background-color: var(--dark-blue);
+}
+
+footer{
+  background-color: var(--dark-blue);
+}
