@@ -2,11 +2,11 @@ import React from "react";
 
 function About() {
   return(
-    <section className="container" id="about-me">
-    <h2 className="display-4">About Me</h2>
+    <section>
+    <h2 className="display-4 text-center mb-4">Hi, I'm Caroline!</h2>
       <div className="row justify-content-center">
           <p className="col-md-4 col-sm-12 bio-text">
-            Greetings, my name is Caroline. Welcome to my portfolio website!
+            Greetings, my name is Caroline Kyle. Welcome to my portfolio website!
             I am a full stack developer with a certification from Vanderbilt University. I 
             have a background in Economics and Data Analytics. Through the Vanderbilt Web Development program, I learned 
             the MERN Stack including technologies such as: JavaScript, React.js, Node.js, Express, PostgreSQL 
@@ -15,7 +15,7 @@ function About() {
             well as data analytics. At the bottom of the website is my contact information, please feel free to reach out with any
             inquiries about these projects. Enjoy!
           </p>
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-4 col-sm-12">
             <img
               src={require('../../assets/images/caroline_smiling.jpg')}
               alt="Caroline Smiling"

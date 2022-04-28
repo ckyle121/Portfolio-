@@ -27,7 +27,8 @@ h2 {
 h3 {
   color: var(--dark-blue);
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: bold;
+  font-size: 2.5rem;
 }
 
 
@@ -39,8 +40,7 @@ img{
   width: 100%;
   border: 5px solid var(--yellow);
   opacity: 0.75;
-  height: 80%;
-  
+  height: 5 rem;
 }
 
 .bio-img {
@@ -52,7 +52,7 @@ img{
   color: var(--darkblue);
   text-align: center;
   font-size: larger;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 img:hover{
@@ -61,9 +61,15 @@ img:hover{
 
 .navbar{
   background-color: var(--dark-blue);
+  font-size: x-large;
 }
 
 footer{
   background-color: var(--dark-blue);
   margin-top: 1rem;
+  padding: 0.5rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }

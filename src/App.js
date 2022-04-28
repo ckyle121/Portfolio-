@@ -9,9 +9,10 @@ import Project from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-import watchSocialPic from './assets/images/WatchSocial.jpg';
-import dreamTeamPic from './assets/images/DreamTeam.jpg';
-import beerBrosPic from './assets/images/Beers&Bros.jpg';
+import watchSocialPic from './assets/images/WatchSocial.png';
+import dreamTeamPic from './assets/images/DreamTeam.png';
+import beerBrosPic from './assets/images/Beers&Bros.png';
+import notePadPic from './assets/images/Notepad.png'
 import socialMediaPic from './assets/images/socialmedia.jpg';
 
 function App() {
@@ -53,24 +54,32 @@ function App() {
 
   const [currentProject, setCurrentProject] = useState(projects[0]);
   const [contactSelected, setContactSelected] = useState(false);
+  const [projectsSelected, setProjectsSelected] = useState(false);
   
   return (
     <div>
       <Nav
-      projects={projects}
       currentProject={currentProject}
       setCurrentProject={setCurrentProject} 
       contactSelected={contactSelected}
       setContactSelected={setContactSelected}
+      projectsSelected={projectsSelected}
+      setProjectsSelected={setProjectsSelected}
       />
       <main>
-        {!contactSelected ? (
+        {contactSelected ? (
           <>
-            <About/>
-            <Project />
+            <Contact/>
+          </>
+        ) : projectsSelected ?
+        (
+          <>
+            <Project projects={projects}/>
           </>
         ) : (
-            <Contact/>
+          <>
+            <About/>
+          </>
           )}
       </main>
       <Footer />
