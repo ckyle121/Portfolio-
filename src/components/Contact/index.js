@@ -41,7 +41,7 @@ function Contact()  {
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
                 </div>
                 <div>
-                    <label htmlFor="email">E-mail Address:</label>
+                    <label htmlFor="email">E-mail address:</label>
                     <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
                 </div>
                 <div>
@@ -58,4 +58,5 @@ function Contact()  {
         </section>
     );
 }
+
 export default Contact;

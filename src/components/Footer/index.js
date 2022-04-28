@@ -8,10 +8,25 @@ import resume from '../../assets/resume/Caroline_Kyle_2022.pdf'
 
 function Footer() {
     return(
-<nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container-fluid">
-    </div>
-        </nav>
+    <footer className="sticky-bottom">
+        <div className="container d-flex justify-content-center">
+            <a href="https://github.com/ckyle121">
+                <GitHubIcon style={{ fill: 'white' }} fontSize="large" className="icon m-3" />
+            </a>
+            <a href="mailto:carolinekyle21@gmail.com">
+                <EmailIcon style={{ fill: 'white' }} fontSize="large" className="icon m-3" />
+            </a>
+            <a href="https://www.linkedin.com/in/ckyle121/">
+                <LinkedInIcon style={{ fill: 'white' }} fontSize="large" className="icon m-3" />
+            </a>
+            <a href="tel:901-326-2383">
+                <PhoneEnabledIcon style={{ fill: 'white' }} fontSize="large" className="icon m-3" />
+            </a>
+            <a href={resume} target="_blank" rel="noopener noreferrer">
+                <InsertDriveFileIcon style={{ fill: 'white' }} fontSize="large" className="icon m-3" />
+            </a>      
+        </div>
+    </footer>
     );
 }
 

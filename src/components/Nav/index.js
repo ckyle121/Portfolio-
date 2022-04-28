@@ -1,4 +1,5 @@
 import React from "react";
+import resume from '../../assets/resume/Caroline_Kyle_2022.pdf'
 
 function Nav(props) {
     const {
@@ -7,11 +8,11 @@ function Nav(props) {
     } = props
 
     return(
-        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">Caroline Kyle</a>
+        <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="/">Caroline Kyle</a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -19,13 +20,16 @@ function Nav(props) {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a href="#about-me" class="nav-link" onClick={() => setContactSelected(false)}>About Me</a>
-              <a href="#work" class="nav-link">Work</a>
-              <a href="#contact" class="nav-link" onClick={() => setContactSelected(true)}>Contact</a>
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div className="navbar-nav">
+              <a href="#about-me" className="nav-link" onClick={() => setContactSelected(false)}>About Me</a>
+              <a href="#work" className="nav-link">Work</a>
+              <a href="#contact" className={`nav-link ${contactSelected && 'navActive'}`}>
+                <span onClick={() => setContactSelected(true)}>Contact</span>
+             </a>
+              <a href={resume} target="_blank" rel="noopener noreferrer" className="nav-link">Resume</a>
             </div>
           </div>
         </div>
