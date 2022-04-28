@@ -31,7 +31,6 @@ h3 {
   font-size: 2.5rem;
 }
 
-
 h3:hover {
   color: var(--yellow);
 }
@@ -39,8 +38,19 @@ h3:hover {
 img{
   width: 100%;
   border: 5px solid var(--yellow);
-  opacity: 0.75;
-  height: 5 rem;
+  opacity: 0.5;
+  height: 80%;
+  z-index: 1;
+}
+
+.project-card{
+  position: relative;
+}
+
+.project-title{
+  position: absolute;
+  z-index: 999;
+  text-align: center;
 }
 
 .bio-img {
@@ -52,7 +62,6 @@ img{
   color: var(--darkblue);
   text-align: center;
   font-size: larger;
-  margin-top: 2rem;
 }
 
 img:hover{
@@ -72,4 +81,16 @@ footer{
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+.btn{
+  background-color: var(--yellow);
+  color: var(--dark-blue);
+  margin: 1rem;
+  font-size: x-large;
+}
+
+.contact-text{
+  font-size: x-large;
+  color: var(--darkblue);
 }

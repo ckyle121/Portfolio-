@@ -14,8 +14,8 @@ function Project({ projects }) {
   return (
     <>
       {isModalOpen && <Modal project={currentProject} onClose={toggleModal} />}
-      <div className="container">
-      <h2 className="display-4">Projects</h2>
+      <h2 className="display-4 text-center mb-4">My Projects</h2>
+      <div>
         <div className="row justify-content-center" id="projects">
           {projects.map((project) => (
             <Card project={project} onClick={() => toggleModal(project)} />

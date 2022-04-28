@@ -37,25 +37,19 @@ function Contact()  {
         <section>
             <h2 className="display-4 text-center mb-4">Send Me a Message<MailOutlineIcon style={{ fill: 'white' }} fontSize="xx-large" className="icon mx-3" /></h2>
             <form onSubmit={handleSubmit} >
-                <div className="row justify-content-center">
-                    <div className="col-md-4 col-sm-12">
-                        <label htmlFor="name">Name:</label>
-                        <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
-                    </div>
-                    <div className="col-md-4 col-sm-12">
-                        <label htmlFor="email">E-mail address:</label>
-                        <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
-                    </div>
-                    <div className="col-md-4 col-sm-12">
-                        <label htmlFor="message">Message:</label>
-                        <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
-                    </div>
+                <div className="d-flex flex-column align-items-center">
+                     <div className="contact-text"><label htmlFor="name">Name: </label></div>
+                    <input className="m-2" type="text" defaultValue={name} onBlur={handleChange} name="name" />
+                    <div className="contact-text"><label htmlFor="email">E-mail: </label></div>
+                    <input className="m-2" type="email" defaultValue={email} name="email" onBlur={handleChange} />
+                    <div className="contact-text"><label htmlFor="message">Message: </label></div>
+                    <textarea className="m-2 w-50" name="message" defaultValue={message} onBlur={handleChange} rows="5"/>
                     {errorMessage && (
                         <div>
                             <p className="error-text">{errorMessage}</p>
                         </div>
                     )}
-                    <button className="col-md-2 col-sm-6" type="submit">Send Message</button>
+                    <button className="btn" type="submit">Send Message</button>
                 </div>
             </form>
         </section>
