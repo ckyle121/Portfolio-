@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-/static/css/main.4aaa617d.css",
-    "main.js": "/Portfolio-/static/js/main.71cfd422.js",
+    "main.js": "/Portfolio-/static/js/main.6e80f605.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-/static/js/787.1ed0c42c.chunk.js",
     "static/media/WatchSocial.png": "/Portfolio-/static/media/WatchSocial.279c3e290186f3723616.png",
     "static/media/Caroline_Kyle_2022.pdf": "/Portfolio-/static/media/Caroline_Kyle_2022.52222fa498f3ebc04ca8.pdf",
@@ -12,11 +12,11 @@
     "static/media/socialmedia.jpg": "/Portfolio-/static/media/socialmedia.193fecef61b1a5fc8290.jpg",
     "index.html": "/Portfolio-/index.html",
     "main.4aaa617d.css.map": "/Portfolio-/static/css/main.4aaa617d.css.map",
-    "main.71cfd422.js.map": "/Portfolio-/static/js/main.71cfd422.js.map",
+    "main.6e80f605.js.map": "/Portfolio-/static/js/main.6e80f605.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4aaa617d.css",
-    "static/js/main.71cfd422.js"
+    "static/js/main.6e80f605.js"
   ]
 }
