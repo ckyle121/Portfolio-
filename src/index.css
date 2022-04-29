@@ -68,6 +68,10 @@ img:hover{
   height: 100%;
 }
 
+.bio-img:hover{
+  opacity: 1;
+}
+
 .bio-text {
   color: var(--darkblue);
   text-align: center;
