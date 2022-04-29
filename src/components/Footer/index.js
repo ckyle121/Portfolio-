@@ -8,7 +8,7 @@ import resume from '../../assets/resume/Caroline_Kyle_2022.pdf'
 
 function Footer() {
     return(
-    <footer className="sticky-bottom">
+    <footer>
         <div className="container d-flex justify-content-center">
             <a href="https://github.com/ckyle121">
                 <GitHubIcon style={{ fill: 'white' }} fontSize="large" className="icon m-3" />

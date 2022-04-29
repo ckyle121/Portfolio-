@@ -39,15 +39,24 @@ img{
   width: 100%;
   border: 5px solid var(--yellow);
   opacity: 0.25;
-  height: 80%;
+  height: 40rem;
 }
 
-.project-card{
+img:hover{
+  opacity: .50;
+}
+
+.project-container {
   position: relative;
+  text-align: center;
+  color: white;
 }
 
 .project-title{
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .bio-img {
@@ -60,11 +69,6 @@ img{
   text-align: center;
   font-size: larger;
 }
-
-img:hover{
-  opacity: 1;
-}
-
 .navbar{
   background-color: var(--dark-blue);
   font-size: x-large;
