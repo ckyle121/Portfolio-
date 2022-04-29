@@ -16,11 +16,11 @@ function Project({ projects }) {
     {!isModalOpen ? (
       <>
        <h2 className="display-4 text-center mb-4">My Projects</h2>
-       <h4 className="display-6 text-center mb-4">Click on a Project to See Details</h4>
+       <h2 className="display-6 text-center mb-4">Click on a Project to See More Details</h2>
        <div>
          <div className="row justify-content-center" id="projects">
            {projects.map((project) => (
-             <Card project={project} onClick={() => toggleModal(project)} />
+             <Card project={project} key={project.name} onClick={() => toggleModal(project)} />
            ))}
          </div>
        </div> 
