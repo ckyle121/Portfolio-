@@ -38,9 +38,8 @@ h3:hover {
 img{
   width: 100%;
   border: 5px solid var(--yellow);
-  opacity: 0.5;
+  opacity: 0.25;
   height: 80%;
-  z-index: 1;
 }
 
 .project-card{
@@ -49,8 +48,6 @@ img{
 
 .project-title{
   position: absolute;
-  z-index: 999;
-  text-align: center;
 }
 
 .bio-img {
@@ -93,4 +90,11 @@ footer{
 .contact-text{
   font-size: x-large;
   color: var(--darkblue);
+}
+
+/* apply styles to modal */
+.modal-text{
+  color: var(--darkblue);
+  text-align: center;
+  font-size: x-large;
 }
