@@ -12,7 +12,7 @@ function Nav(props) {
     return(
         <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
         <div className="container-fluid">
-          <a className="text-white display-7 mx-4"  href="/">Caroline Kyle</a>
+          <p className="text-white display-7 mx-4">Caroline Kyle</p>
           <button
             className="navbar-toggler"
             type="button"
