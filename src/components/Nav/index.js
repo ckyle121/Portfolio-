@@ -26,7 +26,7 @@ function Nav(props) {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a href="/" className="nav-link" onClick={() => setContactSelected(false).setProjectsSelected(false)}>About Me</a>
+              <a href="#about" className="nav-link" onClick={() => setContactSelected(false).setProjectsSelected(false)}>About Me</a>
               <a href="#projects" className={`nav-link ${projectsSelected && 'navActive'}`} onClick={() => setProjectsSelected(true)}>Projects</a>
               <a href="#contact" className={`nav-link ${contactSelected && 'navActive'}`} onClick={() => setContactSelected(true)}>Contact</a>
               <a href={resume} target="_blank" rel="noopener noreferrer" className="nav-link">Resume</a>

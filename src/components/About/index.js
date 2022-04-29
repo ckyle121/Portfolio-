@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return(
-    <section>
+    <section id="about">
     <h2 className="display-4 text-center mb-4">Hi, I'm Caroline!</h2>
       <div className="row justify-content-center">
           <div className="col-md-4 col-sm-12 bio-text" >
