@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio-/static/css/main.4aaa617d.css",
-    "main.js": "/Portfolio-/static/js/main.27ba7a60.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-/static/js/787.1ed0c42c.chunk.js",
-    "static/media/WatchSocial.png": "/Portfolio-/static/media/WatchSocial.279c3e290186f3723616.png",
-    "static/media/Caroline_Kyle_2022.pdf": "/Portfolio-/static/media/Caroline_Kyle_2022.52222fa498f3ebc04ca8.pdf",
-    "static/media/caroline_smiling.jpg": "/Portfolio-/static/media/caroline_smiling.48a346f288b9313f1a0f.jpg",
-    "static/media/Beers&Bros.png": "/Portfolio-/static/media/Beers&Bros.51ce018ea5d1b6db8f8d.png",
-    "static/media/DreamTeam.png": "/Portfolio-/static/media/DreamTeam.ff82a29b2c003a3e598c.png",
-    "static/media/Notepad.png": "/Portfolio-/static/media/Notepad.d542ddbd3aad1f7f36d2.png",
-    "static/media/socialmedia.jpg": "/Portfolio-/static/media/socialmedia.193fecef61b1a5fc8290.jpg",
-    "index.html": "/Portfolio-/index.html",
-    "main.4aaa617d.css.map": "/Portfolio-/static/css/main.4aaa617d.css.map",
-    "main.27ba7a60.js.map": "/Portfolio-/static/js/main.27ba7a60.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Portfolio-/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/portfolio-/static/css/main.4aaa617d.css",
+    "main.js": "/portfolio-/static/js/main.2790b118.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio-/static/js/787.1ed0c42c.chunk.js",
+    "static/media/WatchSocial.png": "/portfolio-/static/media/WatchSocial.279c3e290186f3723616.png",
+    "static/media/Caroline_Kyle_2022.pdf": "/portfolio-/static/media/Caroline_Kyle_2022.52222fa498f3ebc04ca8.pdf",
+    "static/media/caroline_smiling.jpg": "/portfolio-/static/media/caroline_smiling.48a346f288b9313f1a0f.jpg",
+    "static/media/Beers&Bros.png": "/portfolio-/static/media/Beers&Bros.51ce018ea5d1b6db8f8d.png",
+    "static/media/DreamTeam.png": "/portfolio-/static/media/DreamTeam.ff82a29b2c003a3e598c.png",
+    "static/media/Notepad.png": "/portfolio-/static/media/Notepad.d542ddbd3aad1f7f36d2.png",
+    "static/media/socialmedia.jpg": "/portfolio-/static/media/socialmedia.193fecef61b1a5fc8290.jpg",
+    "index.html": "/portfolio-/index.html",
+    "main.4aaa617d.css.map": "/portfolio-/static/css/main.4aaa617d.css.map",
+    "main.2790b118.js.map": "/portfolio-/static/js/main.2790b118.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio-/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4aaa617d.css",
-    "static/js/main.27ba7a60.js"
+    "static/js/main.2790b118.js"
   ]
 }
