@@ -1,5 +1,5 @@
 ## Caroline Kyle Portfolio Website 
-Hi there, welcome to my GitHub repository for my portfolio website! Find out more about me by clicking the link below. I would love to get to know you. Thanks & Enjoy!
+Hi there, welcome to my GitHub repository for my portfolio website! Find out more about me by clicking the link below. Leave me a message. I would love to get to know you. Thanks & Enjoy!
 
 ### Link to Website 
 https://ckyle121.github.io/Portfolio-/
